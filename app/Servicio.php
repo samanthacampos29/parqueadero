@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Servicio extends Model
 {
   
-    protected $fillable = ['horaentrada', 'idVehiculo', 'idCliente'];
+    protected $fillable = ['horaentrada', 'fecha', 'idVehiculo', 'idCliente'];
 }

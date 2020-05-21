@@ -20,14 +20,16 @@ Servicio
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th>Hora de entrada</th>                        
+                <th>Hora de entrada</th> 
+                <th>Fecha</th>                         
                 <th>Acciones</th>
             <tr>
         </thead>
         <tbody>
             @foreach ($servicios as $servicio)
             <tr>
-                <td>{{$servicio -> horaentrada}}</td>               
+                <td>{{$servicio -> horaentrada}}</td>    
+                <td>{{$servicio -> fecha}}</td>             
                 
                 <td>
                   <form action="{{route('servicio.destroy', $servicio->id)}}" method="post">

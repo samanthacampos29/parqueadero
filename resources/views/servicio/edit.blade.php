@@ -32,6 +32,12 @@ Actualizar Servicio
             <input type="text" class="form-control" name="horaentrada" value="{{$servicio->horaentrada}}">
             </div>
     </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label>Fecha:</label>
+        <input type="text" class="form-control" name="fecha" value="{{$servicio->fecha}}">
+        </div>
+</div>
     
     <div class="form-row">
         <div class="form-group col-md-6">

@@ -30,6 +30,12 @@ Crear nuevo servicio
         <input type="text" class="form-control" name="horaentrada" placeholder="Hora de entrada">
         </div>
     </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label>Fecha:</label>
+        <input type="text" class="form-control" name="fecha" placeholder="Fecha">
+        </div>
+    </div>
   
     <div class="form-row">
         <div class="form-group col-md-6">

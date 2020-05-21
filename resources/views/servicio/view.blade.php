@@ -20,6 +20,15 @@
     </div>
 <br>
 <div class="row">
+    <div class="col-sm-3">
+        <h3>Fecha: </h3>
+    </div>
+    <div class="col-sm-3">
+        <p class="lead">{{$servicio->fecha}}</p>
+    </div>
+</div>
+<br>
+<div class="row">
     <h4>Vehiculo:</h4>
     <div class="col-sm-3">
         <p class="lead">{{$servicio->vehiculo}}</p>

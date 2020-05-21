@@ -16,6 +16,7 @@ class CreateServiciosTable extends Migration
         Schema::create('servicios', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('horaentrada');
+            $table->string('fecha');
             $table->bigInteger('idVehiculo')->unsigned();
             $table->foreign('idVehiculo')->references('id')->on('vehiculos');
             $table->bigInteger('idCliente')->unsigned();

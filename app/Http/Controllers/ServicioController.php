@@ -43,6 +43,7 @@ class ServIcioController extends Controller
         //validar que lleguen todos los campos
         $request->validate([
             'horaentrada' => 'required',
+            'fecha' => 'required',
             'idVehiculo' => 'required',
             'idCliente' => 'required',
               
@@ -95,6 +96,7 @@ class ServIcioController extends Controller
     {
         $request->validate([
             'horaentrada' => 'required',
+            'fecha' => 'required',
             'idVehiculo' => 'required',
             'idCliente' => 'required',
                   
